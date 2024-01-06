@@ -1,6 +1,6 @@
 body {
   color: #2e2f42;
-  font-family: 'Roboto', 'Raleway', 'Poppins', 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Roboto', 'Raleway', 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -50,7 +50,7 @@ form > label {
   height: 40px;
   outline: none;
   padding-left: 18px;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .input-delay:hover,
 .input-delay:focus {
