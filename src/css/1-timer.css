@@ -1,13 +1,18 @@
 body {
   margin-left: 24px;
-  font-family: 'Roboto', 'Raleway', 'Poppins', 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'Roboto', 'Raleway', 'Poppins', sans-serif;
+  color: #2e2f42;
+  letter-spacing: 0.64px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .timer {
   display: flex;
   width: 220px;
-  margin-top: 24px;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .field {
@@ -16,17 +21,48 @@ body {
 }
 
 .value {
-  font-size: 24px;
-  align-self: center;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
 }
 
 .label {
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   align-self: center;
 }
 
 input {
-  margin-top: 24px;
-  font-family: 'Roboto', 'Montserrat', 'Raleway', 'Poppins', sans-serif;
+  font-family: 'Montserrat', 'Roboto', 'Raleway', 'Poppins', sans-serif;
+  height: 40px;
+  width: 272px;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 8px 16px;
+  background: #4e75ff;
+  border: none;
+  margin-left: 8px;
+  height: 40px;
+}
+
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+  border: none;
+}
+button:hover {
+  background: #6c8cff;
+  border: none;
+  color: #fff;
+}
+section {
+  margin-bottom: 16px;
 }
