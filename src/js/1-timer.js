@@ -49,25 +49,6 @@ function updateCountdown() {
   }, 1000);
 }
 
-// button.addEventListener('click', () => {
-//   setInterval(updateCountdown, 1000);
-//   button.disabled = true;
-// });
-
-// function updateCountdown() {
-//   userSelectedDate = dataPicker.selectedDates[0];
-//   const currentTime = new Date();
-//   const timeLeft = userSelectedDate - currentTime;
-//   if (timeLeft >= 0) {
-//     const renderTime = convertMs(timeLeft);
-
-//     daysLeft.textContent = addLeadingZero(renderTime.days);
-//     hoursLeft.textContent = addLeadingZero(renderTime.hours);
-//     minLeft.textContent = addLeadingZero(renderTime.minutes);
-//     secLeft.textContent = addLeadingZero(renderTime.seconds);
-//   }
-// }
-
 function addLeadingZero(value) {
   return value.toString().padStart(2, '0');
 }
