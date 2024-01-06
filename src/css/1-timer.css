@@ -38,6 +38,9 @@ input {
   width: 272px;
   margin-bottom: 32px;
   font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 0 8px;
 }
 button {
   cursor: pointer;
